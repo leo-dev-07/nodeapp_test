@@ -12,10 +12,10 @@ spec:
   template:
     metadata:
       labels:
-        app: nodeapp 
+        app: nodeapp
     spec:
       containers:
       - name: nodeserver
-        image: thetips4you/nodeapp:latest
+        image: leopaschdocker07/nodeapp:latest
         ports:
         - containerPort: 3000
